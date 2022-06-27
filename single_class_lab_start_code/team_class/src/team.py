@@ -14,6 +14,8 @@ class Team:
             if player == to_find:
                 found = True
         return found
+# could also just return self.player.count(player) > 0
+
 
     def play_game(self, game_result):
         if game_result == True:
