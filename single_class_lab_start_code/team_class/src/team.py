@@ -21,3 +21,4 @@ class Team:
     def play_game(self, game_result):
         if game_result == True:
             self.points += 3
+# game result will always either be true or false so can just have if game_result, if statemnt will run if the input is true
